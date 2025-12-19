@@ -1,0 +1,182 @@
+# Arduino/ESP32 Build Files
+*.hex
+*.eep
+*.elf
+*.map
+*.sym
+*.lss
+*.lst
+*.bin
+*.o
+*.a
+
+# Arduino Build Directory
+build/
+*.build/
+
+# Arduino IDE Files
+*.ino.cpp
+*.ino.eep.hex
+*.ino.elf
+*.ino.hex
+*.ino.with_bootloader.bin
+*.ino.with_bootloader.hex
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# =========================
+# Sensitive Information
+# =========================
+# IMPORTANT: Never commit these!
+config_local.h
+credentials.h
+secrets.h
+wifi_credentials.h
+*_credentials.*
+*_secrets.*
+
+# =========================
+# IDE and Editor Files
+# =========================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Arduino IDE
+.arduino/
+*.autosave
+libraries/
+hardware/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+platformio.ini
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# =========================
+# Operating System Files
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# =========================
+# Log Files
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Database Files (Local Only)
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Documentation Build
+# =========================
+docs/_build/
+site/
+
+# =========================
+# Package Files
+# =========================
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Python (if using scripts)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# =========================
+# Node.js (if web dev tools)
+# =========================
+node_modules/
+package-lock.json
+yarn.lock
+
+# =========================
+# Backup Files
+# =========================
+*.bck
+*.backup
+*_backup.*
+backup/
+
+# Keep these files
+!.gitignore
+!README.md
+!LICENSE
